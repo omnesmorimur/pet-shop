@@ -107,7 +107,7 @@ body {
     .content-block-first {
 
         .container {
-            background-image: url(/images/main-page-bg-hero.png);
+            background-image: url(./images/main-page-bg-hero.png);
             background-repeat: no-repeat;
             background-size: cover;
             margin-inline: auto;
