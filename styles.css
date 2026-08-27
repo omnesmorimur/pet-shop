@@ -723,24 +723,19 @@ body {
         }
     }
 
-    /* -----------------------------------Глобаки----------------------------------- */
 
-    /* -----------------------------------Inputs----------------------------------- */
-    /* Смена цвета при фокусе инпутов*/
     #name:focus~.floating-placeholder .highlight,
     #phone:focus~.floating-placeholder .highlight,
     #email:focus~.floating-placeholder .highlight {
         color: var(--text-black);
     }
 
-    /* Смена цвета при после фокуса если поле заполнено*/
     #name:not(:placeholder-shown)~.floating-placeholder .highlight,
     #phone:not(:placeholder-shown)~.floating-placeholder .highlight,
     #email:not(:placeholder-shown)~.floating-placeholder .highlight {
         color: var(--text-black);
     }
 
-    /* Fallback для браузеров без поддержки :placeholder-shown */
     @supports not (selector(:placeholder-shown)) {
         .content-block-sixth .wrapper .user-info .custom-form .form-group {
             input:not([value=""])~.floating-placeholder {
@@ -750,7 +745,6 @@ body {
         }
     }
 
-    /* -----------------------------------Button----------------------------------- */
     button:hover {
         box-shadow: 2px 3px 4px rgb(17, 17, 17);
     }
