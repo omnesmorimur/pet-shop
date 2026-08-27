@@ -52,6 +52,8 @@ a:hover h2 {
 }
 
 body {
+    background-color: var(--text-whtite);
+    color: var(--text-black);
 
     header {
 
@@ -107,7 +109,7 @@ body {
     .content-block-first {
 
         .container {
-            background-image: url(./images/main-page-bg-hero.png);
+            background-image: url(/images/main-page-bg-hero.png);
             background-repeat: no-repeat;
             background-size: cover;
             margin-inline: auto;
@@ -237,6 +239,7 @@ body {
                         border-radius: 20px;
                         font-size: 16px;
                         background: transparent;
+                        color: var(--text-black);
 
                         &::placeholder {
                             padding-left: 4rem;
@@ -490,6 +493,7 @@ body {
                             border-radius: 20px;
                             font-size: 16px;
                             background-color: var(--text-whtite);
+                            color: var(--text-black);
 
                             &::placeholder {
                                 padding-left: 3.5rem;
@@ -722,7 +726,6 @@ body {
 
         }
     }
-
 
     #name:focus~.floating-placeholder .highlight,
     #phone:focus~.floating-placeholder .highlight,
